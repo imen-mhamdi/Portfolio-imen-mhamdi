@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Mhamdi imen</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#Compétences">Compétences</a></li>
+        <li><a href="#stages">stages</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Mhamdi imen</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#Compétences" onclick="toggleMenu()">Compétences</a></li>
+        <li><a href="#stages" onclick="toggleMenu()">Stages</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Mhamdi imen profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Bonjour, je suis
+
+      </p>
+      <h1 class="title">Mhamdi imen</h1>
+      <p class="section__text__p2">DEVELOPPEUSE WEB ET MOBILE
+      </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Imen.pdf')">
+          Télécharger le CV
+        </button>
+
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/in/imen-mhamdi-99b769312'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/imen-mhamdi'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">En savoir plus</p>
+    <h1 class="title">À propos de moi</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.jpeg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Éducation</h3>
+            <p>
+              Licence Appliquée en Développement des Systèmes d'Information<br />
+              Cycle d'Ingénieur en Développement Web, Mobile et Multimédia<br />
+              Master Professionnel en Réseaux et Télécommunications (M1)
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Diplômé avec mention Bien en Licence Appliquée en Développement des Systèmes d'Information de l'Institut
+            Supérieur des Études Technologiques de Kébili,
+            j'ai également effectué une première année de Master en Réseaux et Télécommunications. Actuellement en
+            troisième année de cycle d’ingénieur à TEK-UP University,
+            je suis spécialisé dans le développement web, mobile et multimédia. Je suis à l’aise dans un environnement
+            collaboratif et fais preuve d’une grande capacité
+            à assimiler rapidement de nouvelles technologies. Je suis motivé à continuer à apprendre et à relever de
+            nouveaux défis.
+          </p>
+        </div>
+      </div>
+
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Compétences'" />
+  </section>
+  <section id="Compétences">
+    <p class="section__text__p1">Explorez mon</p>
+    <h1 class="title">Compétences</h1>
+    <div class="Compétences-details-container">
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML5</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS3</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Angular</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Flutter</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Figma / Adobe XD</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Adobe Illustrator</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Nest JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Laravel</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>.NET</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Outils et Techniques -->
+        <div class="details-container">
+          <h2 class="experience-sub-title">Outils & Techniques</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>UML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+
+
+  <!--- section stages M-->
+  <section id="stages">
+    <p class="section__text__p1">Explorez mon</p>
+    <h1 class="title">Stages</h1>
+    <div class="compétences-details-container">
+      <div class="stage-containers">
+  
+        <!-- ISS4U -->
+        <div class="details-stage-container">
+          <div class="article-stage-container">
+            <article>
+              <img src="./assets/experience.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>ISS4U | Tunis</h3>
+                <p class="date">Juin 2024 - Août 2024</p>
+                <p>Développement de l’interface d’une application de gestion de point de vente pour une pizzeria (Angular, Jira, Slack).</p>
+              </div>
+            </article>
+  
+            <!-- MSK Technologies -->
+            <article>
+              <img src="./assets/experience.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>MSK Technologies | Sousse</h3>
+                <p class="date">Mai 2024 - Août 2024</p>
+                <p>Conception et développement d’une plateforme ERP de gestion d’atelier (Angular 18, Laravel 11, Jira, Discord).</p>
+              </div>
+            </article>
+  
+            <!-- Commissariat Régional au Développement Agricole -->
+            <article>
+              <img src="./assets/experience.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Commissariat Régional au Développement Agricole | Kébili</h3>
+                <p class="date">Févr 2022 - Mai 2022</p>
+                <p>Développement d'une application web de gestion du parc automobile (Laravel, Jira, Discord).</p>
+              </div>
+            </article>
+  
+            <!-- DopeVision -->
+            <article>
+              <img src="./assets/experience.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>DopeVision | Nabeul</h3>
+                <p class="date">Janv 2022 - Févr 2022</p>
+                <p>Développement d'une application de gestion des étudiants (React JS, Express JS).</p>
+              </div>
+            </article>
+  
+            <!-- Attijari Bank -->
+            <article>
+              <img src="./assets/experience.png" alt="Compétences icon" class="icon" />
+              <div>
+                <h3>Attijari Bank | Manouba</h3>
+                <p class="date">Janv 2020 - Févr 2020</p>
+                <p>Création d'une application de gestion de congés pour Attijari Bank  (HTML, CSS, JavaScript, PHP).</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section id="projects">
+
+    <h1 class="title">Projects</h1>
+   
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.jpg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <p>application web de gestion du 
+            parc automobile (Laravel, jira ,discord)</p> <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.jpg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <p>Développement de l’interface d’une application de 
+            gestion de point de vente pour une pizzeria(Angu
+            lar,jira,skack)</p> <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+           
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.jpg" alt="Project 3" class="project-img" />
+           
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <p>Développement d'une application web de gestion des rendez-vous médicaux utilisant le MERN stack (MongoDB, Express.js, React, Node.js)</p><br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/imen-mhamdi" target="_blank">
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" />
+    </a>
+    
+  </section>
+  
+  <section id="contact">
+    <p class="section__text__p1">Contactez-nous </p>
+    <h1 class="title">Contactez-moi</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:iimenmhamdii@gmail.com">iimenmhamdii@gmail.com </a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://linkedin.com/in/imen-mhamdi-99b769312'">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Compétences">Compétences</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
